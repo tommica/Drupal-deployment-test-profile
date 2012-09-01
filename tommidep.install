@@ -13,7 +13,7 @@ function tommidep_install() {
   include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
   standard_install();
 
-  //Default themes (these should be overwritten in sql import, but just in case)
+  //Default themes
   theme_enable(array('tommi','seven'));
   variable_set('theme_default','tommi');
   variable_set('admin_theme','seven');
