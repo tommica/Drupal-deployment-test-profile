@@ -14,7 +14,6 @@ function tommidep_install() {
   standard_install();
 
   //Default themes
-  theme_enable(array('tommi','seven'));
+  theme_enable(array('tommi'));
   variable_set('theme_default','tommi');
-  variable_set('admin_theme','seven');
 }
